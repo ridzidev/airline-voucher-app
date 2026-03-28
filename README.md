@@ -130,7 +130,6 @@ To prevent **Cross-Origin Resource Sharing (CORS)** errors when the React applic
    ```
 
 **Note:** In development, you can also set `'allowed_origins' => ['*']` in `config/cors.php` for testing purposes, but using the `FRONTEND_URL` variable is the best practice for production-ready code.
-```
 
 ---
 
