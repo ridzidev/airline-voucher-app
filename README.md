@@ -10,8 +10,6 @@ A modern web application built for an airline promotional campaign. This tool al
 - **Service-Oriented Architecture**: Business logic is encapsulated in dedicated Service classes.
 - **Robust Validation**: Uses Laravel Form Requests for clean and secure input handling.
 
-## Screenshoot
-
 ##  Application Preview
 
 Below are the screenshots of the application in action, covering both the Frontend UI and Backend API testing.
@@ -21,6 +19,7 @@ Below are the screenshots of the application in action, covering both the Fronte
 #### 1. Landing Page
 Clean and modern interface for crew members to input flight details.
 ![Landing Page](https://github.com/user-attachments/assets/3722a31f-250e-4d02-9b16-18b4079dcde7)
+
 
 #### 2. Success State
 Vouchers successfully generated with 3 unique random seats displayed in a stylish "ticket-style" layout.
@@ -34,19 +33,19 @@ Clear error message when attempting to generate vouchers for a flight and date t
 
 ###  Backend API (Laravel 13 - Postman Testing)
 
-#### 1. API Check - Success
-Checking if vouchers exist for a specific flight and date (returns `false`).
-![API Check Success](https://github.com/user-attachments/assets/37a45e46-2122-4a8b-85ed-7791eaeb7791)
+#### 1. API Check 
+![API Check Success]([https://github.com/user-attachments/assets/37a45e46-2122-4a8b-85ed-7791eaeb7791](https://github.com/user-attachments/assets/284ae7cc-2081-4155-a43a-9524e24f03b0))
 
-#### 2. API Check - Validation Error
-Proper error handling when required fields are missing or format is invalid.
+<img width="1622" height="786" alt="image" src="https://github.com/user-attachments/assets/284ae7cc-2081-4155-a43a-9524e24f03b0" />
+
+
 ![API Check Failed](https://github.com/user-attachments/assets/5eacc847-6d90-423c-a6d5-d5422814d28d)
 
-#### 3. API Generate - Success
+#### 2. API Generate - Success
 Voucher successfully created and stored in SQLite database with randomized seats.
 ![API Insert Success](https://github.com/user-attachments/assets/ed5521e9-d9a7-4e98-b495-c356a19d3781)
 
-#### 4. API Generate - Duplicate Error
+#### 3. API Generate - Duplicate Error
 Backend preventing duplicate entries for the same flight and date combination.
 ![API Insert Duplicate](https://github.com/user-attachments/assets/ea7de308-126e-4c03-8b8c-0258dab77ae1)
 
